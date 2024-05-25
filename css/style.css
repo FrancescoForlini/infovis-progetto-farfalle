@@ -1,0 +1,43 @@
+.div-container{
+	height: 700px;
+	width : 1500px;
+	background-color: #e8eaf6; /* oppure aliceblue */
+	margin: 0 auto;  /* centra il div orizzontalmente*/
+	}
+
+
+.div-container1{
+	height: 18cm;
+	width : 36cm;
+	background-color: pink;
+	position: absolute;
+	top: 20px;
+	left: 5%;
+	}
+
+
+/*risolvere**************************************/
+
+#svg1 {
+	position: relative;
+  	left: 50px;
+  	top: 30px;
+
+} 
+/*
+ #svg1 {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+} */
+
+
+/*
+
+#svg1 {
+    position: absolute; /* Posizionamento assoluto rispetto al div padre */
+    /*top: 50%; /* Centra verticalmente */
+    /*left: 50%; /* Centra orizzontalmente */
+    /*transform: translate(-50%, -50%); /* Regola per centrare correttamente l'elemento SVG */
+/*} */
